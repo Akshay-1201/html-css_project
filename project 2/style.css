@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+    width:100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: black;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    height: 10vh;
+    padding: 0 50px;
+    align-items: center;
+}
+nav img {
+    height: 40px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    color: rgb(169, 169, 169);
+}
+li{
+    list-style: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+nav button{
+    font-size: 19px;
+    padding: 10px 30px;
+    background-color: rgb(18, 131, 237);
+    color: white;
+    border-radius: 25px;
+}
+main{
+    padding: 0 50px
+}
+section.sec_1{
+    /* padding: 0 50px; */
+}
+section.sec_1 h1{
+    font-size: 90px;
+    color: white;
+    margin-top: 40px
+}
+section.sec_1 span{
+    color: rgb(18, 131, 237);
+    font-style: oblique;
+}
+section.sec_1 p{
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(169, 169, 169);
+}
+div.sec_1btn{
+    margin-top: 40px;
+}
+button.sec_1btn-1{
+    padding: 15px 20px;
+    font-size: 19px;
+    background-color: rgb(18, 131, 237);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+}
+button.sec_1btn-2{
+    padding: 15px 20px;
+    font-size: 19px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+section.sec_1{
+    display: flex;
+}
+div.leftsec_1{
+    width: 60%;
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 600px;
+}
