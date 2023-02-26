@@ -40,10 +40,10 @@ nav button{
     border-radius: 25px;
 }
 main{
-    padding: 0 50px
+    /* padding: 0 50px */
 }
 section.sec_1{
-    /* padding: 0 50px; */
+    padding: 0 50px;
 }
 section.sec_1 h1{
     font-size: 90px;
@@ -89,4 +89,42 @@ div.leftsec_1{
     height: 100vh;
     padding-top: 40px;
     padding-left: 600px;
+}
+section.sec_2{
+    background-color: rgb(32, 31, 31);
+    /* width: auto; */
+    margin-top: -200px;
+    padding: 3vh 0;
+}
+div.logo_light{
+    display: flex;
+    justify-content: space-around;
+   
+}
+section.sec_3{
+    background-color: #fff;
+    
+}
+div.sec_3h1{
+    text-align: center;
+    padding-top: 100px ;
+    font-size: 45px;
+}
+div.sec_3p{
+    text-align: center;
+    padding-top: 30px;
+    word-spacing: 2px;
+    font-size: 20px;
+    color: rgb(92, 91, 91);
+}
+div.cards_1{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    text-align: center
+}
+div.card_1{
+   border: 2px solid black; 
+   padding: 20px 30px;
+   padding-block: 20px;
 }
