@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
+    font-family: Poppins;
 }
 body{
     height: 100vh;
@@ -102,8 +103,7 @@ div.logo_light{
    
 }
 section.sec_3{
-    background-color: #fff;
-    
+    background-color: #fff;    
 }
 div.sec_3h1{
     text-align: center;
@@ -119,11 +119,188 @@ div.sec_3p{
 }
 div.cards_1{
     display: flex;
-    margin-top: 70px;
+    margin-top: 100px;
     justify-content: space-around;
-    text-align: center
+    text-align: center;
 }
 div.card_1{
-   border: 2px solid black; 
-   padding: 20px 30px;
+   border: 1px solid black; 
+   padding: 30px 20px;
+   border-radius: 15px;
+   cursor: pointer;
 }
+div.card_1 h1{
+    margin-top: 20px;
+}
+div.card_1 p{
+    margin-top: 20px;
+}
+div.card_2{
+    border: 1px solid black; 
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom: -570px;
+    cursor: pointer;
+ }
+ div.card_2 h1{
+     margin-top: 20px;
+ }
+ div.card_2 p{
+     margin-top: 20px;
+ }
+ div.card_3{
+    border: 1px solid black; 
+    padding: 30px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+ }
+ div.card_3 h1{
+     margin-top: 20px;
+ }
+ div.card_3 p{
+     margin-top: 20px;
+ }
+ section.sec_4{
+    background-color: #fff;
+    padding:50px 50px;
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: Sans-serif;
+ }
+ section.sec_5{
+    background-color: #fff;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ div.sec_5right {
+    width: 48%;
+    font-size: 30px;
+ }
+ div.first{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3d89df;
+    padding: 20px 30px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+ }
+ div.second{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+ }
+ div.third{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+ }
+ div.forth{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+ }
+ div.fifth{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+ }
+ div.sec_5left{
+    width: 48%;
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px 20px;
+    color: #fff;
+    font-size: 20px;
+ }
+ div.one{
+    display: flex;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
+ div.two{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
+ div.three{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
+ div.four{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
+ div.five{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
+ div.six{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
+ div.seven{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
+ div.eight{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #373636;
+    padding: 10px 20px;
+ }
