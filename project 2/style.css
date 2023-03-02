@@ -331,10 +331,100 @@ div.card_2{
     color: #fff;
     display: flex;
  }
+ div.lower_card1{
+    color: black;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.regular h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.regular h3{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.regular h3 span{
+    font-size: 15px;
+    color: #636363;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.regular p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #636363;
+ }
  div.lower ul{
     display: grid;
     gap: 10px;
+    margin-top: 40px;
  }
- div.lower li{
-    gap: 20px;
+ div.lower ul li{
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.lower li img{
+    padding-right: 10px;
+ }
+ div.lower button{
+    margin-top: 30px;
+    padding: 10px 120px;
+    font-size: 15px;
+    background-color: #3d89df;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+ }
+ div.lower_card2{
+    color: white;
+    background-color: #3d89df;
+    padding: 20px 30px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.standard h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.standard h2{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.standard h2 span{
+    font-size: 15px;
+    color: #c2c4c6; 
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.standard p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+ }
+ div.lower_card2 ul{
+    display: grid;
+    gap: 10px;
+    margin-top: 40px;
+ }
+ div.lower_card2 ul li{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ div.lower_card2 li img{
+    padding-right: 10px;
+ }
+ div.lower_card2 button{
+    margin-top: 30px;
+    padding: 10px 120px;
+    font-size: 15px;
+    background-color: white;
+    color: #3d89df;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
  }
