@@ -175,6 +175,8 @@ div.card_2{
     padding: 0 50px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 150px;
+    
  }
  div.sec_5right {
     width: 48%;
@@ -303,4 +305,36 @@ div.card_2{
     border-radius: 20px;
     background-color: #373636;
     padding: 10px 20px;
+ }
+ section.sec_6{
+    padding: 0 50px;
+    background-color: black;
+    margin-top: 100px;
+ }
+ div.upper{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 40px;
+ }
+ div.upper h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+ }
+ div.upper img{
+    height: 70%;
+ }
+ div.lower{
+    color: #fff;
+    display: flex;
+ }
+ div.lower ul{
+    display: grid;
+    gap: 10px;
+ }
+ div.lower li{
+    gap: 20px;
  }
