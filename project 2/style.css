@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     height: 100vh;
@@ -47,7 +47,7 @@ section.sec_1{
     padding: 0 50px;
 }
 section.sec_1 h1{
-    font-size: 90px;
+    font-size: 80px;
     color: white;
     margin-top: 40px
 }
@@ -330,6 +330,7 @@ div.card_2{
  div.lower{
     color: #fff;
     display: flex;
+    justify-content: space-evenly;
  }
  div.lower_card1{
     color: black;
@@ -428,3 +429,51 @@ div.card_2{
     border-radius: 25px;
     cursor: pointer;
  }
+div.lower_card3{
+   color: black;
+   background-color: #fff;
+   padding: 20px 30px;
+   border-radius: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+div.premium h1{
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+div.premium h3{
+   margin-top: 20px;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+div.premium h3 span{
+   font-size: 15px;
+   color: #636363;
+   font-family: Arial, Helvetica, sans-serif;
+}
+div.premium p{
+   padding-top: 10px;
+   padding-bottom: 30px;
+   border-bottom: 1px solid #636363;
+}
+div.lower_card3 ul{
+   display: grid;
+   gap: 10px;
+   margin-top: 40px;
+}
+div.lower_card3 ul li{
+   font-size: 15px;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+div.lower_card3 li img{
+   padding-right: 10px;
+}
+div.lower_card3 button{
+   margin-top: 30px;
+   padding: 10px 120px;
+   font-size: 15px;
+   background-color: #3d89df;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+}
